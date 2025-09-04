@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elementos</title>
+    <title>Registrar</title>
     <link rel="stylesheet" href="../estilo/elementos.css">
+    <link rel="stylesheet" href="../estilo/mediaQueries.css">
 </head>
 <body>
-    <div class="register-box">
-        <picture class="pics">
+    <picture class="pics">
             <img class="red-logo" src="../imagens/Opera_Instantâneo_2025-07-29_182133_www.figma.com-removebg-preview.png" alt="">
         </picture>
 
-        <h2 class="title">
-            Registre-se
-        </h2>
+    <h2 class="title">
+        Registre-se
+    </h2>
 
-        <p class="subtitle">Crie sua conta</p>
+    <label class="label-text" for="name">Nome:</label>
+    <input type="text" name="" id="name">
 
-        <div class="button-box">
-            <a href=""><button class="button-1">Cliente</button></a>
-            <a href=""><button class="button-2">Prestador de serviços</button></a>
-        </div>
+    <label class="label-text" for="brth-date">Data de Nascimento:</label>
+    <input type="date" name="" id="brth-date">
 
-        <p class="reg-log">Já possui uma conta? <a href="">Clique aqui</a></p>
-    </div>
+    <label class="label-text" for="cpf">CPF:</label>
+    <input type="number" name="" id="cpf">
+
+    <label class="label-text" for="email">Email:</label>
+    <input type="email" name="" id="email">
+
+    <label class="label-text" for="password">Senha:</label>
+    <input type="password" name="" id="password">
+
+    <button type="submit">Registrar</button>
+
+    <p class="reg-log">Já possui uma conta? <a href="">Clique aqui</a></p>
 </body>
 </html>
