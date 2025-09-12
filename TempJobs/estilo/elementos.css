@@ -6,6 +6,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
     font-family: "Instruments Sans", sans-serif;
 }
 
@@ -37,10 +38,13 @@ body {
     flex-direction: column;
 
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .pics {
     text-align: center;
+    width: fit-content;
+    margin: auto;
 }
 
 .red-logo {
@@ -50,7 +54,6 @@ body {
 .title {
     font-weight: 500;
     font-size: 1.8em;
-
     margin: 15px 0px 5px;
 }
 
@@ -63,6 +66,7 @@ body {
     width: 80%;
 
     align-items: center;
+    justify-content: center;
     text-align: center;
     flex-direction: row;
 }
@@ -116,7 +120,7 @@ body {
     margin-bottom: 20px;
     text-align: left;
     width: 100%;
-    max-width: 300px;
+    align-items: center;
 }
 
 .label-text {
@@ -136,6 +140,7 @@ body {
     background-color: var(--color3);
 }
 
-div.form {
+.form {
     margin-top: 45px;
+    width: 50vw;
 }
