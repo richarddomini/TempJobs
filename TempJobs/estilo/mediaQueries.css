@@ -4,14 +4,14 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
+        
         text-align: center;
     }
 
     .register-box {
     margin-top: 0px;
 
-    width: 400px;
+    width: 600px;
     display: flex;
     flex-direction: column;
 
@@ -79,6 +79,18 @@
 .reg-log {
     font-size: 0.8em;
 }
+
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.standart-input {
+    width: 320px;
+}
+
 }
 
 @media screen and (min-width: 1080px) {
@@ -87,7 +99,6 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
         text-align: center;
     }
 
