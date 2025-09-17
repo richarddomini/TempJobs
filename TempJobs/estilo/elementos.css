@@ -54,7 +54,7 @@ body {
 .title {
     font-weight: 500;
     font-size: 1.8em;
-    margin: 15px 0px 5px;
+    margin: 15px 0px 25px;
 }
 
 .subtitle {
@@ -64,6 +64,8 @@ body {
 .button-box {
     margin: 20px 0px;
     width: 80%;
+
+    flex-direction: row;
 
     align-items: center;
     justify-content: center;

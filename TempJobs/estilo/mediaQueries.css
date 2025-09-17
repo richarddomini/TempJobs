@@ -11,7 +11,7 @@
     .register-box {
     margin-top: 0px;
 
-    width: 600px;
+    width: 750px;
     display: flex;
     flex-direction: column;
 
@@ -23,8 +23,8 @@
 }
 
 .red-logo {
-    width: 500px;
-    margin: 0px 0px 30px;
+    width: 300px;
+    margin: 30px 0px 30px;
 }
 
 .title {
@@ -40,15 +40,14 @@
 
 .button-box {
     margin: 50px 0px;
-    width: 80%;
+    width: 100%;
 
     align-items: center;
     text-align: center;
-    flex-direction: row;
 }
 
 .button-1, .button-2 {
-    width: 150px;
+    width: 100px;
     height: 40px;
     border-radius: 5px;
     box-shadow: 0x 0x 5px 10px black;
@@ -105,7 +104,7 @@
     .register-box {
     margin-top: 0px;
 
-    width: 100vw;
+    width: 1000px;
     display: flex;
     flex-direction: column;
 
@@ -117,8 +116,8 @@
 }
 
 .red-logo {
-    width: 500px;
-    margin: 0px 0px 30px;
+    width: 300px;
+    margin: 30px 0px 30px;
 }
 
 .title {
@@ -134,15 +133,14 @@
 
 .button-box {
     margin: 50px 0px;
-    width: 80%;
+    width: 100%;
 
     align-items: center;
     text-align: center;
-    flex-direction: row;
 }
 
 .button-1, .button-2 {
-    width: 150px;
+    width: 100px;
     height: 40px;
     border-radius: 5px;
     box-shadow: 0x 0x 5px 10px black;
@@ -173,4 +171,16 @@
 .reg-log {
     font-size: 0.8em;
 }
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.standart-input {
+    width: 320px;
+}
+
+
 }
